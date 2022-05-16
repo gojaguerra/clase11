@@ -16,6 +16,7 @@ header {
     position: sticky;
     top: 0;
     border-bottom: #3fbbc0 solid 2px;
+    z-index: 100;
 }
 
 footer {
@@ -257,14 +258,14 @@ tr:nth-child(even) {
  */
 
 .imagenFondo {
-    background-image: url(../img/imagenfondo.jpg);
+    background-image: url(../img/imagenFondo.jpg);
     background-size: cover;
     background-position-y: center;
     height: calc(100vh-80px);
 }
 
 .imagenFondoProductos {
-    background-image: url(../img/imagenfondo.jpg);
+    background-image: url(../img/imagenFondo.jpg);
     background-size: cover;
     background-position-y: center;
     height: calc(100vh-80px);
@@ -274,7 +275,7 @@ tr:nth-child(even) {
 }
 
 .imagenFondoContacto {
-    background-image: url(../img/imagenfondo.jpg);
+    background-image: url(../img/imagenFondo.jpg);
     background-size: cover;
     background-position-y: center;
     height: calc(100vh-80px);
@@ -283,7 +284,7 @@ tr:nth-child(even) {
 }
 
 .imagenFondoTrabajos {
-    background-image: url(../img/imagenfondo.jpg);
+    background-image: url(../img/imagenFondo.jpg);
     background-size: cover;
     background-position-y: center;
     height: calc(100vh-80px);
