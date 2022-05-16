@@ -1,0 +1,9 @@
+Jesús
+
+Estan aplicadas las grids en todas las páginas.
+Esta aplicado Flex y Full Responsive. 
+Si bien me faltan implementar mejoras de visualizacion no rompe nada por lo menos hasts 300px
+
+Creeria que no falta nada para las dos entregas
+
+saludos
