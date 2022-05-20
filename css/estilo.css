@@ -608,6 +608,10 @@ footer {
         padding: 0;
         width: 95%;
      }
+
+     #idMemo {
+         width: 80%;
+     }
 }
 
 /* .carousel-item img {
