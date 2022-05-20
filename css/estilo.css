@@ -415,6 +415,72 @@ tr:nth-child(even) {
     PAGINA CONTACTO
 */
 
+.cajaAnimada {
+    border-top: 2px solid #3fbbc0;
+    border-radius: 4px;
+    height: 250px;
+    width: 500px;
+    margin: 30px;
+    position: absolute;
+    /* Centramos de forma simple */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 10px;
+    opacity: 90%;
+    max-width: 90%;
+  }
+  
+  .botonAsociar {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #fff;
+    /* background-color: #3fbbc0; */
+    /* Cambios -- Clase 8 */
+    background-image: linear-gradient(to right, #3fbbc0, #0083B0);
+  }
+  
+  .botonAsociar:hover {
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .8s;
+  }
+  
+  .botonAsociar:active{
+    transform:translateY(3px);
+  }
+
+  #ubicacionContacto {
+    width: 100%;
+    background-image: linear-gradient(to right, #2c3e50, #3498db);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+  }
+  
+  #ubicacionContacto h2 {
+    margin: 20px 40px;
+    font-size: 2.5rem;
+  }
+  
+  #ubicacionContacto p {
+    margin: 40px;
+  }
+  
 .cajaContacto {
     display: flex;
     background:#E4E4E0;
@@ -548,3 +614,4 @@ footer {
         width: 95%;
      }
 }
+
